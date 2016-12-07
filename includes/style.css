@@ -1,0 +1,37 @@
+.btc-heart:before{
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    content: "\f08a";
+    color: #000;
+    font-size: 16px;
+}
+
+.btc-heart.btc-liked:before{
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+    content: "\f004";
+    color: #ec008c;
+    font-size: 16px;
+}
+/*.btc-heart.btc-liked:hover:before{
+    content: "\f08a";
+    color: #000;
+}
+
+.btc-heart:hover:before{
+	content: "\f004";
+	color: #ec008c;
+}*/
+
+.btc-likes span{
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
